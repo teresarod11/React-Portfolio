@@ -5,7 +5,6 @@ function Navbar() {
   return (
     <>
       <Nav className="justify-content-end" activeKey="/home">
-        <h1> Teresa Rodriguez</h1>
         <Nav.Item>
           <Nav.Link href="/home">Home</Nav.Link>
         </Nav.Item>
