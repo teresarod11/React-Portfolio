@@ -3,8 +3,9 @@ import { MDBInput, MDBTextArea, MDBCheckbox, MDBBtn, MDBValidation, MDBValidatio
 
 export default function Contact() {
   return (
-    <MDBValidation noValidate id='form' className='text-center' style={{ width: '100%', maxWidth: '300px' }}>
-      <h2>Contact us</h2>
+    <section className='d-flex justify-content-center mt-5'>
+    <MDBValidation noValidate id='form' className='text-center' style={{ width: '100%', maxWidth: '800px' }}>
+      <h2>Contact Me</h2>
 
       <MDBValidationItem invalid feedback='Please provide your name.'>
         <MDBInput label='Name' v-model='name' wrapperClass='mb-4' required />
@@ -25,10 +26,11 @@ export default function Contact() {
       <MDBValidationItem feedback=''>
         <MDBCheckbox wrapperClass='d-flex justify-content-center' label='Send me copy' />
       </MDBValidationItem>
-
+     
       <MDBBtn type='submit' color='primary' block className='my-4'>
         Send
       </MDBBtn>
     </MDBValidation>
+    </section>
   );
 }

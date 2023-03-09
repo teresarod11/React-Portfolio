@@ -1,0 +1,7 @@
+.bio {
+    font-size:larger;
+}
+
+.bio-image {
+    filter:brightness(40%);
+}
