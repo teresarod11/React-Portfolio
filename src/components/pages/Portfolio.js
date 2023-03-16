@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-import coffee from '../images/coffee.jpeg';
+import coffee from '../images/coffee.jpg';
 import time from '../images/time.jpeg';
 import weather from '../images/weather.jpeg';
 import work from '../images/work.jpeg';
