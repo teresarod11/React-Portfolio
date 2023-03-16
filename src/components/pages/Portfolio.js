@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-import stock from '../images/stocks.jpeg';
+import coffee from '../images/coffee.jpeg';
 import time from '../images/time.jpeg';
 import weather from '../images/weather.jpeg';
 import work from '../images/work.jpeg';
@@ -12,13 +12,13 @@ function Portfolio() {
     <Row xs={1} md={2} className="g-4 mt-5">
         <Col>    
           <Card>
-            <Card.Img variant="top" src={stock} />
+            <Card.Img variant="top" src={coffee} />
             <Card.Body>
-              <Card.Title>Stock Market Visualizer</Card.Title>
+              <Card.Title>Caffiends</Card.Title>
               <Card.Text>
-                This was a group project of a data visualizer web application that shows historical data for popular stocks, currency exchange rates, and US government data.
+              Welcome to Caffiends! At Caffiends, coffee isn't just a drink - it's a lifestyle! Step into our wonderful world of hot and cold beverages and some delicious food. And the best part? Register now to start ranking in the rewards of our amazing loyalty points program. Don't wait a second longer - sign up now! We encourage you to have a seat, take a sip, and leave a tip
               </Card.Text>
-              <a href="https://teresarod11.github.io/stock-market-visualizer/">
+              <a href="https://caffiends.herokuapp.com">
               <Button variant="dark">View Project</Button>
               </a>
             </Card.Body>
