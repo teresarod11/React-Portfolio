@@ -11,7 +11,7 @@ function About() {
         <Card.Title>Teresa Rodriguez</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">About Me</Card.Subtitle>
         <Card.Text className='bio d-flex justify-content-center'>
-          I am very passionate about web development, which I have experience with HTML, CSS, Javascript, React and more! I am always wanted to learn more to extend my knowlege in the IT field. 
+        Hello! My name is Teresa Rodriguez. I am a recent graduate of the Full-Stack Coding Bootcamp Program at Georgia Tech. I am very passionate about front-end web development. I am skilled in HTML and CSS to create prototypes, but I am also proficient in JavaScript, jQuery, Bootstrap, etc. 
         </Card.Text>
       </Card.Body>
       </Card.ImgOverlay>
